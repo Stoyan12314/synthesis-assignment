@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OrQ43e6TBYOep7RcIrvs1GcQR+OBvQiPheFVW4DckBWOkVH5CcuRQnBixTXeSFyzxjA2+4zS9ixZWIt7OFU9Dg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

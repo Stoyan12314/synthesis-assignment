@@ -1,0 +1,72 @@
+﻿@import url('login.css');
+
+body .description {
+    font-weight: bold;
+    margin-top: 230px;
+    margin-left: 190px;
+}
+
+    body .description p {
+        font-size: large;
+    }
+
+body .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    body .login-container .Login {
+        margin-top: 190px;
+    }
+
+body .Login fieldset {
+    border-color: white;
+}
+
+body .Login label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+
+body .Login input[type=text] {
+    border-radius: 5px;
+}
+
+body .Login .inputField {
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+body .Login #Continue {
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 20px;
+    margin-left: 83px;
+    border-radius: 5px;
+}
+
+body .Login {
+    margin-right: 590px;
+    margin-left: 520px;
+    border-radius: 5px;
+}
+
+
+    body .Login #SignUpp {
+        position: relative;
+        bottom: 26px;
+        margin-left: 175px;
+        margin-top: 8px;
+        border-radius: 5px;
+    }
+
+    body .Login #Question {
+        position: relative;
+        top: 15px;
+        margin-left: 15px;
+    }
