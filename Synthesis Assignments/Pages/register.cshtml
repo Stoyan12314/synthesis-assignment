@@ -1,0 +1,59 @@
+﻿@page
+@model Synthesis_Assignments.Pages.registerModel
+@{
+}
+<link rel="stylesheet" href="/css/register.css">
+<div class="text-center">
+    <div class="flex-container">
+
+
+        <div class="SignUp">
+            <form method="POST">
+
+                <fieldset>
+                    <legend>SIGN UP</legend>
+
+                    <div class="inputField">
+
+                        <h4>Email</h4>
+                        <input asp-for="Register.email" type="email" placeholder="Enter email">
+                        <span class="text-danger" asp-validation-for="Register.email"></span>
+
+                        <h4>Username</h4>
+                        <input asp-for="Register.username" type="username" placeholder="Enter username">
+                        <span class="text-danger" asp-validation-for="Register.username"></span>
+
+                        <h4>Password</h4>
+                        <input asp-for="Register.password" type="password" placeholder="Enter password">
+                        <span class="text-danger" asp-validation-for="Register.password"></span>
+
+                        <h4>Repeat password</h4>
+                        <input asp-for="Register.RepPassword" type="password" placeholder="Enter repeat password">
+                        <span class="text-danger" asp-validation-for="Register.RepPassword"></span>
+
+                        <h4>First name</h4>
+                        <input asp-for="Register.firstName" type="first name" placeholder="Enter first name">
+                        <span class="text-danger" asp-validation-for="Register.firstName"></span>
+
+                        <h4>Last name</h4>
+                        <input asp-for="Register.lastName" type="last name" placeholder="Enter last name">
+                        <span class="text-danger" asp-validation-for="Register.lastName"></span>
+
+                       
+
+                    </div>
+                    <input id="Continue" type="submit" value="Continue">
+                    <h5 id="Question">Already a user?</h5>
+
+                    <input asp-page="/index" id="Login" type="submit" value="Login">
+
+                </fieldset>
+              
+
+            </form>
+
+
+        </div>
+
+    </div>
+</div>

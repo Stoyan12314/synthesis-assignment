@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Synthesis_Assignments</title>
+    <link rel="stylesheet" href="/css/Index.css">
+</head>
+<body>
+    <header>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="navbar">
+
+                <img id="logo" src="images/LogoSynthesis.png" alt="logo">
+
+                <a asp-page="/Games">Games</a>
+                <a asp-page="/Home">Home</a>
+
+                <a asp-page="/Account">Account</a>
+
+                <a asp-page="/LogOut">Logout</a>
+            </div>
+        }
+        else
+        {
+            <div class="navbar">
+
+                <img id="logo" src="images/LogoSynthesis.png" alt="logo">
+
+                <a asp-page="/Games">Games</a>
+                <a asp-page="/Home">Home</a>
+                <a asp-page="/Login">Login</a>
+
+            </div>
+        }
+
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+   
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,62 @@
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.exe
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.deps.json
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.runtimeconfig.json
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.runtimeconfig.dev.json
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.pdb
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.Views.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.Views.pdb
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\MySql.Data.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\ZstdNet.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\BuisnessLogicLayer.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\BuisnessLogicLayer.pdb
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.csproj.AssemblyReference.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.AssemblyInfoInputs.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.AssemblyInfo.cs
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.MvcApplicationPartsAssemblyInfo.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.RazorAssemblyInfo.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.RazorAssemblyInfo.cs
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\Synthesis Assignments.StaticWebAssets.Manifest.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\Synthesis Assignments.StaticWebAssets.Pack.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Synthesis Assignments.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Synthesis Assignments.props
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Synthesis Assignments.props
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Synthesis Assignments.props
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.TagHelpers.input.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.TagHelpers.output.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.RazorCoreGenerate.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.RazorTargetAssemblyInfo.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.RazorTargetAssemblyInfo.cs
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.Views.pdb
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.csproj.CopyComplete
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.dll
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.pdb
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.genruntimeconfig.cache
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\index.cshtml.g.cs
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\register.cshtml.g.cs
+D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\LogOut.cshtml.g.cs
