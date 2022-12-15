@@ -1,0 +1,15 @@
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\bin\Debug\netcoreapp3.1\RealizationProvider.deps.json
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\bin\Debug\netcoreapp3.1\RealizationProvider.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\bin\Debug\netcoreapp3.1\RealizationProvider.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\obj\Debug\netcoreapp3.1\RealizationProvider.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\obj\Debug\netcoreapp3.1\RealizationProvider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\obj\Debug\netcoreapp3.1\RealizationProvider.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\obj\Debug\netcoreapp3.1\RealizationProvider.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\obj\Debug\netcoreapp3.1\RealizationProvider.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\obj\Debug\netcoreapp3.1\RealizationProvider.csproj.CopyComplete
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\obj\Debug\netcoreapp3.1\RealizationProvider.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\RealizationProvider\obj\Debug\netcoreapp3.1\RealizationProvider.pdb

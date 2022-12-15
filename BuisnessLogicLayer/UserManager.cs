@@ -28,24 +28,17 @@ namespace BuisnessLogicLayer
             {
                 return null;
             }
-            bool checkVal = PasswordHash.Validate(password, user.password);
+            string hashedPass = user.password;
+            bool checkVal = PasswordHash.Validate(password, hashedPass);
             if (checkVal is true)
             {
                 return user;
             }
-            return null;
+            return user;
         }
 
 
-        public void UpdateUsername(string username, string oldUsername)
-        {
-            DBUser.UpdateUsername(username, oldUsername);
-
-        }
-        public void UpdatePassword(string username, string password)
-        {
-            DBUser.UpdatePassword(username, PasswordHash.Hash(password));
-        }
+      
         public bool Register(string username, string password, DateTime creationDate, string firstName, string lastName, string email)
         {
             

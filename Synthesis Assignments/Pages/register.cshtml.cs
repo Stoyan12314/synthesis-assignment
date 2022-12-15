@@ -23,24 +23,16 @@ namespace Synthesis_Assignments.Pages
             {
                 try
                 {
-                    if (Register.password == Register.RepPassword)
-                    {
+                   
                         bool registrationSucessful = userManager.Register(Register.username, Register.username, DateTime.Now, Register.firstName, Register.lastName, Register.email);
                         if (registrationSucessful)
                         {
-                            return new RedirectToPageResult("/index");
+                            return new RedirectToPageResult("/Privacy");
                         }
                         else
                         {
                             return Page();
                         }
-
-                    }
-                    else
-                    {
-                        
-                    }
-                    return Page();
                 }
                 catch (Exception ex)
                 {

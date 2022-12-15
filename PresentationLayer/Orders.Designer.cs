@@ -34,6 +34,8 @@
             this.delivery_option = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.delivery_date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.order_status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tbLimit = new System.Windows.Forms.TextBox();
+            this.btnSearch = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOrders)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,7 +48,7 @@
             this.delivery_option,
             this.delivery_date,
             this.order_status});
-            this.dataGridViewOrders.Location = new System.Drawing.Point(12, 12);
+            this.dataGridViewOrders.Location = new System.Drawing.Point(9, 45);
             this.dataGridViewOrders.Name = "dataGridViewOrders";
             this.dataGridViewOrders.RowHeadersWidth = 51;
             this.dataGridViewOrders.RowTemplate.Height = 29;
@@ -89,16 +91,36 @@
             this.order_status.Name = "order_status";
             this.order_status.Width = 125;
             // 
+            // tbLimit
+            // 
+            this.tbLimit.Location = new System.Drawing.Point(9, 12);
+            this.tbLimit.Name = "tbLimit";
+            this.tbLimit.Size = new System.Drawing.Size(125, 27);
+            this.tbLimit.TabIndex = 1;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(311, 575);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(94, 29);
+            this.btnSearch.TabIndex = 2;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
             // Orders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 534);
+            this.ClientSize = new System.Drawing.Size(700, 616);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.tbLimit);
             this.Controls.Add(this.dataGridViewOrders);
             this.Name = "Orders";
             this.Text = "Orders";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOrders)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -110,5 +132,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn delivery_option;
         private System.Windows.Forms.DataGridViewTextBoxColumn delivery_date;
         private System.Windows.Forms.DataGridViewTextBoxColumn order_status;
+        private System.Windows.Forms.TextBox tbLimit;
+        private System.Windows.Forms.Button btnSearch;
     }
 }

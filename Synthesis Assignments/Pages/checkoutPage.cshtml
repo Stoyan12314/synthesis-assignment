@@ -1,0 +1,48 @@
+﻿@page
+@model Synthesis_Assignments.Pages.checkoutPageModel
+@{
+}
+<link rel="stylesheet" href="/css/checkOutPage.css">
+<form method="post">
+    <div class="elements">
+        <div class="item">
+
+
+
+            <label asp-for="check.country">Country</label>
+            <input asp-for="check.country" type="country" placeholder="Enter country">
+            <span class="text-danger" asp-validation-for="check.country"></span>
+
+        </div>
+        <div class="item" >
+          
+
+            <label asp-for="check.address">Address</label>
+            <input asp-for="check.address" type="address" placeholder="Enter address">
+            <span class="text-danger" asp-validation-for="check.address"></span>
+
+        </div>
+        <div class="item">
+           
+            <label asp-for="check.city">City</label>
+            <input asp-for="check.city" type="city" placeholder="Enter city">
+            <span class="text-danger" asp-validation-for="check.city"></span>
+
+
+        </div>
+        <div class="item">
+
+            <label asp-for="check.postalCode">Postal code</label>
+            <input asp-for="check.postalCode" type="postalCode" placeholder="Enter postal code">
+            <span class="text-danger" asp-validation-for="check.postalCode"></span>
+
+        </div>
+        <select asp-for="check.deliveryOption">
+            <option value="Home">Home</option>
+            <option value="PickUp">PickUp</option>
+        </select>
+        <button id="Continue" type="submit" value="Submit">Continue</button>
+
+    </div>
+  
+</form>

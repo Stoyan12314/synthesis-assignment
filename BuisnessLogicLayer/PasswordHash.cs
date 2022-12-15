@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
 
+
 namespace BuisnessLogicLayer
 {
     public static class PasswordHash
     {
         // methods are from https://stackoverflow.com/questions/4181198/how-to-hash-a-password/10402129#10402129 
+
         public static string Hash(string password)
         {
+
             byte[] salt;
 
             new RNGCryptoServiceProvider().GetBytes(salt = new byte[16]);
@@ -58,5 +61,6 @@ namespace BuisnessLogicLayer
             return true;
 
         }
+
     }
 }

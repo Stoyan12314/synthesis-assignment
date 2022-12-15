@@ -20,5 +20,8 @@ namespace BuisnessLogicLayer.Interfaces
         public Item GetItemWith(int id);
 
         public List<Item> GetAllItems();
+
+        public List<Item> GetItemWithCategory(string category);
+        public List<Item> GetItemWithSubCategory(string subCategory);
     }
 }

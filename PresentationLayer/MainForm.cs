@@ -19,12 +19,20 @@ namespace PresentationLayer
         {
             EditItems form = new EditItems();
             form.ShowDialog();
-            this.Close();   
+            
         }
 
         private void btnOrder_Click(object sender, EventArgs e)
         {
+            Orders form = new Orders();
+            form.ShowDialog();
+        }
 
+        private void btnCreateCategory_Click(object sender, EventArgs e)
+        {
+            CategoryManagerForm form = new CategoryManagerForm();   
+            form.ShowDialog();
+          
         }
     }
 }

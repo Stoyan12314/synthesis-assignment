@@ -1,0 +1,17 @@
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\net7.0\BuisnessLogicLayer.deps.json
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\net7.0\BuisnessLogicLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\net7.0\BuisnessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\net7.0\DataAccessLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\net7.0\Entities.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\net7.0\DataAccessLayer.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\net7.0\Entities.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\net7.0\BuisnessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\net7.0\BuisnessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\net7.0\BuisnessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\net7.0\BuisnessLogicLayer.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\net7.0\BuisnessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\net7.0\BuisnessLogicLayer.csproj.CopyComplete
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\net7.0\BuisnessLogicLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\net7.0\refint\BuisnessLogicLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\net7.0\BuisnessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\net7.0\ref\BuisnessLogicLayer.dll

@@ -13,18 +13,16 @@
 
                 <div class="inputField">
                     <label asp-for="Login.email">Email</label>
-                    <input asp-for="Login.email">
-
+                    <input asp-for="Login.email" type="email" placeholder="Enter Email">
                     <span class="text-danger" asp-validation-for="Login.email"></span>
 
-
                     <label asp-for="Login.password">Password</label>
-                    <input asp-for="Login.password">
-
+                    <input asp-for="Login.password" type="password" placeholder="Enter password">
                     <span class="text-danger" asp-validation-for="Login.password"></span>
-                </div>
-                <button id="Continue" type="submit" value="Submit">Continue</button>
 
+                </div>
+                <button id="Continue" type="submit" value="Submit" >Continue</button>
+         
                 <label id="Question">Don't have an account?</label>
                 <input asp-page="/register" id="SignUpp" type="submit" value="SignUp">
             </fieldset>

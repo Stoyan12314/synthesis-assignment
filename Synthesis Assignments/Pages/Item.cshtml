@@ -1,0 +1,31 @@
+﻿@page
+@model Synthesis_Assignments.Pages.ItemModel
+@{
+}
+<link rel="stylesheet" href="/css/item.css">
+
+<div class="flex-container1">
+    <form method="post">
+         <div class="flex-container-item1">
+
+        <img src="data:image/jpeg;base64,@Convert.ToBase64String(@Model.item.image)" alt="game image">
+        <p>Product:@Model.item.name </p>
+    </div>
+    <div class="flex-container-item2">
+       <p>Description: @Model.item.description</p>
+       <p>Price: @Model.item.price.ToString() $/@Model.item.amount @Model.item.unit.ToString()</p>
+
+       
+      
+       
+    </div>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a asp-page="/ShoppingCard" asp-page-handler="buynow" asp-route-id="@Model.item.id">Add</a>   
+        }
+        
+
+    </form>
+   
+  
+</div>

@@ -1,0 +1,15 @@
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Release\netcoreapp3.1\BuisnessLogicLayer.deps.json
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Release\netcoreapp3.1\BuisnessLogicLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Release\netcoreapp3.1\BuisnessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Release\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Release\netcoreapp3.1\Entities.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Release\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Release\netcoreapp3.1\Entities.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Release\netcoreapp3.1\BuisnessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Release\netcoreapp3.1\BuisnessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Release\netcoreapp3.1\BuisnessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Release\netcoreapp3.1\BuisnessLogicLayer.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Release\netcoreapp3.1\BuisnessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Release\netcoreapp3.1\BuisnessLogicLayer.csproj.CopyComplete
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Release\netcoreapp3.1\BuisnessLogicLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Release\netcoreapp3.1\BuisnessLogicLayer.pdb

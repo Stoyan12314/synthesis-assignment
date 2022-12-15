@@ -26,6 +26,15 @@ namespace Entities
             this.creationDate = creationDate;
             this.AccountType= accountType;
         }
+        public User(string username, string password, DateTime creationDate, string firstName, string lastName, string email, AccountType accountType)
+        {
+            this.username=username;
+            this.password=password;
+            this.creationDate=creationDate;
+            this.firstName=firstName;
+            this.lastName=lastName;
+            this.Email=email;
+        }
 
     }
 }

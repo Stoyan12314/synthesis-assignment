@@ -37,5 +37,15 @@ namespace BuisnessLogicLayer
         {
             return DBItem.GetAllItems();
         }
+        public List<Item> GetItemWithCategory(string category)
+        {
+            return DBItem.GetItemWithCategory(category);
+        }
+        public List<Item> GetItemWithSubCategory(string subCategory)
+        {
+            return DBItem.GetItemWithSubCategory(subCategory);
+        }
+
+
     }
 }

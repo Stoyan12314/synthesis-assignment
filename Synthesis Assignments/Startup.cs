@@ -1,20 +1,18 @@
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Synthesis_Assignments
 {
     public class Startup
     {
+        public void Configure(IApplicationBuilder app)
+        {
+            // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        }
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -26,16 +24,14 @@ namespace Synthesis_Assignments
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpContextAccessor();
+           // services.AddSession();
             services.AddSession(options =>
             {
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
-            services.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
-            {
-                options.LoginPath = new PathString("/Login");
-            });
+
             services.AddAuthentication().AddCookie("MyCookieAuth", options =>
             {
                 options.Cookie.Name = "MyCookieAuth";
@@ -59,12 +55,16 @@ namespace Synthesis_Assignments
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
             app.UseSession();
 
+
+
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseAuthorization();
-
+            app.UseStaticFiles();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();

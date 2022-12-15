@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealizationProvider", "Real
 		{7C95419F-2D93-4BBB-AAAA-171AC64A4BA5} = {7C95419F-2D93-4BBB-AAAA-171AC64A4BA5}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "UnitTesting\UnitTesting.csproj", "{73BAAAD6-6ACC-455E-95F7-5E8C5380DF78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{249FB569-3D1E-4FEA-9B04-CB21FBA34C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{249FB569-3D1E-4FEA-9B04-CB21FBA34C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{249FB569-3D1E-4FEA-9B04-CB21FBA34C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BAAAD6-6ACC-455E-95F7-5E8C5380DF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BAAAD6-6ACC-455E-95F7-5E8C5380DF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BAAAD6-6ACC-455E-95F7-5E8C5380DF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BAAAD6-6ACC-455E-95F7-5E8C5380DF78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

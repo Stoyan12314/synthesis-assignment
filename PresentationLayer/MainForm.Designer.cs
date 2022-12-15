@@ -30,11 +30,12 @@
         {
             this.btnEditItems = new System.Windows.Forms.Button();
             this.btnOrder = new System.Windows.Forms.Button();
+            this.btnCreateCategory = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEditItems
             // 
-            this.btnEditItems.Location = new System.Drawing.Point(266, 89);
+            this.btnEditItems.Location = new System.Drawing.Point(268, 178);
             this.btnEditItems.Name = "btnEditItems";
             this.btnEditItems.Size = new System.Drawing.Size(238, 80);
             this.btnEditItems.TabIndex = 0;
@@ -44,7 +45,7 @@
             // 
             // btnOrder
             // 
-            this.btnOrder.Location = new System.Drawing.Point(266, 203);
+            this.btnOrder.Location = new System.Drawing.Point(268, 292);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(238, 80);
             this.btnOrder.TabIndex = 2;
@@ -52,11 +53,22 @@
             this.btnOrder.UseVisualStyleBackColor = true;
             this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
+            // btnCreateCategory
+            // 
+            this.btnCreateCategory.Location = new System.Drawing.Point(268, 54);
+            this.btnCreateCategory.Name = "btnCreateCategory";
+            this.btnCreateCategory.Size = new System.Drawing.Size(238, 80);
+            this.btnCreateCategory.TabIndex = 3;
+            this.btnCreateCategory.Text = "Categories";
+            this.btnCreateCategory.UseVisualStyleBackColor = true;
+            this.btnCreateCategory.Click += new System.EventHandler(this.btnCreateCategory_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCreateCategory);
             this.Controls.Add(this.btnOrder);
             this.Controls.Add(this.btnEditItems);
             this.Name = "MainForm";
@@ -69,5 +81,6 @@
 
         private System.Windows.Forms.Button btnEditItems;
         private System.Windows.Forms.Button btnOrder;
+        private System.Windows.Forms.Button btnCreateCategory;
     }
 }

@@ -1,0 +1,25 @@
+﻿@import url('shoppingCard.css');
+body #Update {
+    border-radius: 90px;
+    background-color:lightblue;
+}
+body  {
+    color:white;
+}
+
+body #Quantity {
+    
+    width: 50px;
+    border-radius:90px;
+}
+
+    body #item-image {
+        
+        width:120px;
+        height:100px;
+    }
+
+    body a {
+        text-decoration: none;
+        color:white;
+    }
