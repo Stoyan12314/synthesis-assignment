@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9w9aaHYF3dM/YutVgmgqec2ghcdocdHFDct3MBd5hweghkPQ17dXDik1esIi3qarPVBzamZ5qFGtllIyiqXnow==",
+  "dgSpecHash": "lR9QNc5QyHafP2Zbt1zvTA6fBxHMvIZTIRh48D+lhIegWHtZIX3Tgln8wz29lbXHGVHyx3OCTAtSU06Gx3rt+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\PresentationLayer\\PresentationLayer.csproj",
+  "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\PresentationLayer\\PresentationLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stoyan\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

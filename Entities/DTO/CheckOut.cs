@@ -18,5 +18,7 @@ namespace Entities.DTO
         [Required][DataType(DataType.PostalCode)][DisplayName("postal code")] public string postalCode { get; set; }
 
         [Required][DisplayName("country")] public string country { get; set; }
+
+
     }
 }

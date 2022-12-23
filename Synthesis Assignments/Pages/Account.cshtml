@@ -1,0 +1,67 @@
+﻿@page
+@model Synthesis_Assignments.Pages.AccountModel
+@{
+}
+<link rel="stylesheet" href="/css/account.css">
+<h1>Account</h1>
+<div class="info-container">
+    <fieldset>
+     
+
+
+        <div class="elements">
+            <form method="post">
+
+                <div class="item">
+
+
+
+                    <label asp-for="CheckOutDTO.country">Country</label>
+                    <input asp-for="CheckOutDTO.country" type="country" placeholder="Enter country">
+                    <span class="text-danger" asp-validation-for="CheckOutDTO.country"></span>
+
+                </div>
+                <div class="item">
+
+
+                    <label asp-for="CheckOutDTO.address">Address</label>
+                    <input asp-for="CheckOutDTO.address" type="address" placeholder="Enter address">
+                    <span class="text-danger" asp-validation-for="CheckOutDTO.address"></span>
+
+                </div>
+                <div class="item">
+
+                    <label asp-for="CheckOutDTO.city">City</label>
+                    <input asp-for="CheckOutDTO.city" type="city" placeholder="Enter city">
+                    <span class="text-danger" asp-validation-for="CheckOutDTO.city"></span>
+
+
+                </div>
+                <div class="item">
+
+                    <label asp-for="CheckOutDTO.postalCode">Postal code</label>
+                    <input asp-for="CheckOutDTO.postalCode" type="postalCode" placeholder="Enter postal code">
+                    <span class="text-danger" asp-validation-for="CheckOutDTO.postalCode"></span>
+                </div>
+                <div class="item-selection">
+
+                   
+
+
+                    <button id="Save" type="submit" value="Submit">Save</button>
+                    
+                  
+                </div>
+                
+            
+
+
+
+            </form>
+
+
+        </div>
+    </fieldset>
+
+
+</div>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m9MU3cqz+PMjimNTO28arG2elC4jL1H0kUXQOYkzF3DxVJttgMobh43K2YSzYoCf7nyfW8K2mThLPzfy2VqPKw==",
+  "dgSpecHash": "Nld5QzXXKguuiPi/Jfm6zSBOV4lYm+yWyDDQU04LtnlAvT6UwSobqpjDPy2aGHsQ8xdr3/7VEPXuQa/eaQky+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\BuisnessLogicLayer\\BuisnessLogicLayer.csproj",
+  "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\BuisnessLogicLayer\\BuisnessLogicLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stoyan\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

@@ -9,69 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Synthesis_Assignments
 build_property.RootNamespace = Synthesis_Assignments
-build_property.ProjectDir = C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\
+build_property.ProjectDir = C:\Users\Stoyan\Desktop\synthesis-assignment-master\Synthesis Assignments\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments
+build_property.MSBuildProjectDirectory = C:\Users\Stoyan\Desktop\synthesis-assignment-master\Synthesis Assignments
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/checkoutPage.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/checkoutPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2hlY2tvdXRQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/Error.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/groupItems.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/groupItems.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ3JvdXBJdGVtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/groupSubItems.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/groupSubItems.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ3JvdXBTdWJJdGVtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/Home.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/index.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/Item.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/Item.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/LogOut.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/LogOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nT3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/Privacy.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/OrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/OrderHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/register.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/Shared/_Layout.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/ReturnItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV0dXJuSXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/ShoppingCard.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/ShoppingCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHBpbmdDYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/_ViewImports.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Stoyan/Desktop/Synthesis assignment/Synthesis Assignments/Pages/_ViewStart.cshtml]
+[C:/Users/Stoyan/Desktop/synthesis-assignment-master/Synthesis Assignments/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

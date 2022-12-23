@@ -21,21 +21,16 @@ namespace UnitTesting.FakeDataAccessLayer
 
         public bool CreateCategory(string cat)
         {
-            foreach (Category g in categories)
-            {
-                if (g.category != cat)
-                {
                     categories.Add(new Category(1, cat));
                     return true;
-                }
-            }
-            return false;
         }
 
        
         public bool CreateSubCategory(string subCategory, int CategoryId)
         {
             List<SubCategory> subCategories = new List<SubCategory>();
+
+            
             foreach (Category g in categories)
             {
                 if (g.id == CategoryId)

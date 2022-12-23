@@ -34,7 +34,50 @@ namespace DataAccessLayer
                 this.con.Close();
             }
         }
+        public bool DeleteCategory(int id)
+        {
+            try
+            {
+                con.Open();
+                string sql = "Delete from categories where category_id = @id;";
+                MySqlCommand cmd = new MySqlCommand(sql, con);
+                cmd.Parameters.AddWithValue("id", id);
 
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                this.con.Close();
+            }
+        }
+        public bool DeleteSubCategory(int id)
+        {
+            try
+            {
+                con.Open();
+                string sql = "Delete from subcategory where subCategory_id = @id;";
+                MySqlCommand cmd = new MySqlCommand(sql, con);
+                cmd.Parameters.AddWithValue("id", id);
+
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                this.con.Close();
+            }
+        }
         public bool CreateSubCategory(string subCategory, int CategoryId)
         {
             try

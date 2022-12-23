@@ -1,6 +1,8 @@
 ﻿body {
     background-color: #3D68FF;
-    overflow-x:hidden;
+    overflow-x: hidden;
+    font-family: Garamond, serif;
+    color: white;
 }
 
 .navbar {

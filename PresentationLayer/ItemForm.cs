@@ -15,13 +15,18 @@ namespace PresentationLayer
 {
     public partial class ItemForm : Form
     {
-        private IItemManager itemManager = new ItemManager(new DBItem());
-        private ICategoryManager categoryManager = new CategoryManager(new DBCategory());
+        private IItemManager itemManager;
+        private ICreateItemManager createItemManager;
+        private IDeleteItemManager deleteItemManager;
+        private ICategoryManager categoryManager;
         int id;
         EditItems form;
         public ItemForm(EditItems form) 
         {
             InitializeComponent();
+            categoryManager = new CategoryManager(new DBCategory());
+            createItemManager = new CreateItemManager(new DBItem());
+            itemManager = new ItemManager(new DBItem());
             btnRemoveItem.Hide();
             this.form = form;
             loadCategories();
@@ -31,6 +36,8 @@ namespace PresentationLayer
             InitializeComponent();
             this.id = id;
             this.form = form;
+            deleteItemManager = new DeleteItemManager(new DBItem());
+            categoryManager = new CategoryManager(new DBCategory());
             LoadData();
             loadCategories();
         }
@@ -56,9 +63,8 @@ namespace PresentationLayer
                     string unit = cbUnit.Text;
                     string description = tbDescription.Text;
                     UnitType unitType = Enum.Parse<UnitType>(unit);
-                    itemManager.CreateItem(new Item(itemName, subCategory, Category, price, unitType, amount, image, description));
+                    createItemManager.CreateItem(new Item(itemName, subCategory, Category, price, unitType, amount, image, description));
                     MessageBox.Show("Item created");
-                   // EditItems form = new EditItems();
                     form.LoadData();
                     this.Close();
                 }
@@ -102,6 +108,7 @@ namespace PresentationLayer
         }
         public void LoadData()
         {
+            itemManager = new ItemManager(new DBItem());
             Item item = itemManager.GetItemWith(id); 
             MemoryStream stream = new MemoryStream(item.image);
             pcBox.Image = Image.FromStream(stream);
@@ -140,7 +147,7 @@ namespace PresentationLayer
 
         private void btnRemoveItem_Click(object sender, EventArgs e)
         {
-            itemManager.DeleteItem(id);
+            deleteItemManager.DeleteItem(id);
             form.LoadData();
             this.Close();
             

@@ -27,21 +27,25 @@ namespace PresentationLayer
             int index = e.RowIndex;
             DataGridViewRow selectedRow = dataGridViewOrders.Rows[index];
             int id = (int)selectedRow.Cells[0].Value;
-            OrderForm form = new OrderForm(id);
+            OrderForm form = new OrderForm(id, this);
             form.ShowDialog();
           //  ItemForm newForm = new ItemForm(id, this);
           //  newForm.ShowDialog();
         }
-
-        private void btnSearch_Click(object sender, EventArgs e)
+        public void UpdataData(int limit)
         {
-            int limit = Convert.ToInt32(tbLimit.Text);
+            
             orderManager = new OrderManager(new DBOrder());
             dataGridViewOrders.Rows.Clear();
             foreach (Order order in orderManager.GetOrders(limit))
             {
                 dataGridViewOrders.Rows.Add(order.OrderId, order.OrderDate, order.DeliveryOption, order.DeliveryDate, order.DeliveryStatus);
             }
+        }
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            int limit = Convert.ToInt32(tbLimit.Text);
+            UpdataData(limit);
         }
     }
 }

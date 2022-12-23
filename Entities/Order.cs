@@ -12,7 +12,7 @@ namespace Entities
         public List<OrderedItem> orderedItems { get; set; }
         public int userId { get; set; }
         public int OrderId { get; set; }
-        public OrderedItem orderedItem { get; set; }
+       
         public DateTime OrderDate { get; set; }
         public DateTime DeliveryDate { get; set; }
         public DeliveryOption DeliveryOption { get; set; }
@@ -40,6 +40,25 @@ namespace Entities
             this.shipCountry = shipCountry;
             
         }
+
+        public Order(int orderId, int user_id, List<OrderedItem> orderedItems, DateTime OrderDate, DateTime DeliveryDate, DeliveryOption DeliveryOption, DeliveryStatus DeliveryStatus, string shipAddress, string shipCity, string shipPostCode, string shipCountry)
+        {
+            this.OrderId= orderId;
+            this.orderedItems = new List<OrderedItem>();
+            this.userId = user_id;
+            this.orderedItems = orderedItems;
+            this.OrderDate = OrderDate;
+            this.DeliveryDate = DeliveryDate;
+            this.DeliveryOption = DeliveryOption;
+            this.DeliveryStatus = DeliveryStatus;
+            this.shipAddress = shipAddress;
+            this.shipCity = shipCity;
+            this.shipPostCode = shipPostCode;
+            this.shipCountry = shipCountry;
+
+        }
+
+
         public Order(int orderId, int user_id, DateTime OrderDate, DateTime DeliveryDate, DeliveryOption DeliveryOption, DeliveryStatus DeliveryStatus, string shipAddress, string shipCity, string shipPostCode, string shipCountry)
         {
             this.userId = user_id;
@@ -55,11 +74,8 @@ namespace Entities
             this.OrderDate= OrderDate;
             this.shipCity = shipCity;
         }
-        //public Order() //ctor for creation with userId
-        //{
-
-        //}
-
+       
+        
 
     }
 }

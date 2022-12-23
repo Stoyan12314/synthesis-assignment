@@ -41,3 +41,46 @@ C:\Users\Stoyan\Desktop\Synthesis assignment\PresentationLayer\obj\Debug\net7.0-
 C:\Users\Stoyan\Desktop\Synthesis assignment\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.genruntimeconfig.cache
 C:\Users\Stoyan\Desktop\Synthesis assignment\PresentationLayer\obj\Debug\net7.0-windows\ref\PresentationLayer.dll
 C:\Users\Stoyan\Desktop\Synthesis assignment\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.OrderForm.resources
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\PresentationLayer.exe
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\PresentationLayer.deps.json
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\PresentationLayer.runtimeconfig.json
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\PresentationLayer.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\PresentationLayer.pdb
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\Google.Protobuf.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\MySql.Data.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\ZstdNet.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\BuisnessLogicLayer.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\DataAccessLayer.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\Entities.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\BuisnessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\DataAccessLayer.pdb
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\bin\Debug\net7.0-windows\Entities.pdb
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.CategoryManagerForm.resources
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.EditItems.resources
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.EditOrderForm.resources
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.ItemForm.resources
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.LoginForm.resources
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.MainForm.resources
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.OrderForm.resources
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.Orders.resources
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.SubCatEdit.resources
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.subCategoryForm.resources
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.csproj.CopyComplete
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\refint\PresentationLayer.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.pdb
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\PresentationLayer.genruntimeconfig.cache
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\PresentationLayer\obj\Debug\net7.0-windows\ref\PresentationLayer.dll

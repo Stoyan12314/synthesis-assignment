@@ -57,10 +57,10 @@ namespace Synthesis_Assignments.Pages
         public ActionResult OnPostAsync()
         {
 
-            IUserManager userManager = new UserManager(new DBUser());
+            ILoginManager loginManager = new LoginManager(new DBUser());
             if (ModelState.IsValid)
             {
-                User user = userManager.CheckLogin(Login.password, Login.email);
+                User user = loginManager.CheckLogin(Login.password, Login.email);
                 if (user != null)
                 {
                     Auth(user.username);

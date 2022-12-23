@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ieAl148FrKypvxUkfEqW3PUuxS2FlBz95KnSCIgfZ4D1knNSC0qofP0gwZliun8l3fh78ugs+pvpn73LA24yXA==",
+  "dgSpecHash": "kLXtmUR1o8LL4KfLauTOiExwJeXwVSDanqTBAFqj+/a4zdu5ODGqw8ucQOVZuejkUfBltBIgOraC1MjnPJb3VQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Synthesis Assignments\\Synthesis Assignments.csproj",
+  "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Synthesis Assignments\\Synthesis Assignments.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stoyan\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

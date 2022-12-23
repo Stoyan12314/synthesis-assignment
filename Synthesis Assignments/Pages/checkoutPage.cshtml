@@ -1,10 +1,23 @@
 ﻿@page
+
 @model Synthesis_Assignments.Pages.checkoutPageModel
 @{
 }
 <link rel="stylesheet" href="/css/checkOutPage.css">
 <form method="post">
     <div class="elements">
+
+        <h3>Bonus points: @Model.LoadBonusPoints()</h3>
+        @if (@Model.card.Sum(i => i.item.price * i.quantity) == null)
+        {
+            
+        }
+        else
+        {
+            <h3>Total: @Model.card.Sum(i => i.item.price * i.quantity) $</h3>
+        }   
+
+      
         <div class="item">
 
 
@@ -37,12 +50,26 @@
             <span class="text-danger" asp-validation-for="check.postalCode"></span>
 
         </div>
-        <select asp-for="check.deliveryOption">
-            <option value="Home">Home</option>
-            <option value="PickUp">PickUp</option>
-        </select>
-        <button id="Continue" type="submit" value="Submit">Continue</button>
+        <div class="item-selection">
 
+            <select asp-for="check.deliveryOption">
+                <option value="Home">Home</option>
+                <option value="PickUp">PickUp</option>
+            </select>
+
+            <button asp-page-handler="Async" id="Continue" type="submit" value="Submit">Check out</button>
+            <button asp-page-handler="BonusPoints" id="Continue" type="submit" value="Submit">Check out with bonus points</button>
+
+        </div>
+        @if (ViewData["Message"] != null)
+        {
+            <script type="text/javascript">
+                window.onload = function () {
+                    alert("@ViewData["Message"]");
+                };
+            </script>
+        }
+      
     </div>
   
 </form>

@@ -17,18 +17,12 @@ namespace BuisnessLogicLayer
         {
             this.DBItem = DBItem;
         }
-        public bool CreateItem(Item item)
-        {
-          return  DBItem.CreateItem(item);
-        }
+       
         public void EditItem(int id, Item item)
         {
             DBItem.UpdateItem(id, item);
         }
-        public bool DeleteItem(int id) 
-        {
-            return  DBItem.DeleteItem(id);
-        }
+      
         public Item GetItemWith(int id) 
         {
             return DBItem.GetItemWith(id);

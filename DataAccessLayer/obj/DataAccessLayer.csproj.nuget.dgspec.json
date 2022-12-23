@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Stoyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stoyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj"
+              "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj": {
+    "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Stoyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stoyan\\AppData\\Roaming\\NuGet\\NuGet.Config",

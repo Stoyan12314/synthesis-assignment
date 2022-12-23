@@ -9,43 +9,9 @@ namespace UnitTesting
     [TestClass]
     public class ItemManagerTest 
     {
-        [TestMethod]
-        public void CreateItem_ItemCreatedSuccesfully_Void()
-        {
-            byte[] bytes = { 0, 0, 0, 25 };
-            List<Item> items = new List<Item>();
-            Item item = new Item(1, "test", new SubCategory(1,"testSubCat"), new Category(1,"testCat"), Entities.Enum.UnitType.grams, 3, 1, bytes, "description");
-            items.Add(item);
+     
 
-            FakeItemDB fakeRepo = new FakeItemDB(items);
-
-            ItemManager itemManager = new ItemManager(fakeRepo);
-
-            bool check = itemManager.CreateItem(item);
-
-
-            Assert.IsFalse(check);
-
-        }
-
-        [TestMethod]
-        public void DeleteItem_ItemDeletedSuccesfully_Void()
-        {
-            byte[] bytes = { 0, 0, 0, 25 };
-            List<Item> items = new List<Item>();
-            Item item = new Item(1, "test", new SubCategory(1, "testSubCat"), new Category(1, "testCat"), Entities.Enum.UnitType.grams, 3, 1, bytes, "description");
-            items.Add(item);
-
-            FakeItemDB fakeRepo = new FakeItemDB(items);
-
-            ItemManager itemManager = new ItemManager(fakeRepo);
-
-            bool check = itemManager.DeleteItem(item.id);
-
-
-            Assert.IsTrue(check);
-
-        }
+        
 
         [TestMethod]
         public void GetAllItems_ItemsGottenSuccesfully_Void()
@@ -61,6 +27,7 @@ namespace UnitTesting
 
             List<Item> gottenItems = itemManager.GetAllItems();
 
+            Assert.IsTrue(items.Contains(item));
 
             Assert.AreEqual(gottenItems[0], items[0]);
 
@@ -81,6 +48,7 @@ namespace UnitTesting
 
             Item gottenItem = itemManager.GetItemWith(item.id);
 
+            Assert.IsTrue(items.Contains(item));
 
             Assert.AreEqual(item, gottenItem);
 
@@ -100,6 +68,7 @@ namespace UnitTesting
 
             List<Item> gottenItem = itemManager.GetItemWithCategory("testCat");
 
+            Assert.IsTrue(items.Contains(item));
 
             Assert.AreEqual(item.category.category, gottenItem[0].category.category);
 
@@ -120,6 +89,7 @@ namespace UnitTesting
 
             List<Item> gottenItem = itemManager.GetItemWithSubCategory("testSubCat");
 
+            Assert.IsTrue(items.Contains(item));
 
             Assert.AreEqual(item.subCategory.Name, gottenItem[0].subCategory.Name);
 
@@ -140,6 +110,7 @@ namespace UnitTesting
             itemManager.EditItem(1, edditedItem);
             Item gottenItem = itemManager.GetItemWith(1);
 
+            Assert.IsTrue(items.Contains(edditedItem));
 
             Assert.AreEqual(gottenItem, edditedItem);
 

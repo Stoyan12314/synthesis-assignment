@@ -375,7 +375,7 @@
       },
       "BuisnessLogicLayer/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "DataAccessLayer": "1.0.0",
           "Entities": "1.0.0",
@@ -1096,11 +1096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Synthesis Assignments\\Synthesis Assignments.csproj",
+      "projectUniqueName": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Synthesis Assignments\\Synthesis Assignments.csproj",
       "projectName": "Synthesis Assignments",
-      "projectPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Synthesis Assignments\\Synthesis Assignments.csproj",
+      "projectPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Synthesis Assignments\\Synthesis Assignments.csproj",
       "packagesPath": "C:\\Users\\Stoyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Synthesis Assignments\\obj\\",
+      "outputPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Synthesis Assignments\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Stoyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1117,14 +1117,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\BuisnessLogicLayer\\BuisnessLogicLayer.csproj": {
-              "projectPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\BuisnessLogicLayer\\BuisnessLogicLayer.csproj"
+            "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\BuisnessLogicLayer\\BuisnessLogicLayer.csproj": {
+              "projectPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\BuisnessLogicLayer\\BuisnessLogicLayer.csproj"
             },
-            "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj"
+            "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj"
             }
           }
         }

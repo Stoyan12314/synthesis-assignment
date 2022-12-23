@@ -1,0 +1,54 @@
+﻿@import url('OrderHistory.css');
+body {
+    font-family: Garamond, serif;
+    color: white;
+}
+body #Update {
+    border-radius: 90px;
+    background-color: lightblue;
+}
+
+body {
+    color: white;
+}
+
+    body #Quantity {
+        width: 50px;
+        border-radius: 90px;
+    }
+
+    body #item-image {
+        width: 120px;
+        height: 100px;
+    }
+
+    body a {
+        text-decoration: none;
+        color: white;
+    }
+
+    body .buttonsStyle {
+        display: flex;
+        flex-direction: row;
+        background-color: deepskyblue;
+        border-radius: 8px;
+        margin-bottom: 0.2rem;
+        width: 8rem;
+    }
+
+    body .pagination li {
+        margin:0.2rem;
+        display: inline;
+        
+    }
+
+
+        body .pagination li a {
+            background-color:lightsteelblue;
+            
+            border-radius:30px;
+        }
+            body .pagination li a:hover {
+                background-color: blue;
+                transition: 0.2s;
+            }

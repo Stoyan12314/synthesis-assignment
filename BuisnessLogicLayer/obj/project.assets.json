@@ -1,16 +1,20 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    ".NETCoreApp,Version=v3.1": {
       "Google.Protobuf/3.19.4": {
         "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
         "compile": {
-          "lib/net5.0/Google.Protobuf.dll": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net5.0/Google.Protobuf.dll": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -70,33 +74,33 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {
@@ -143,27 +147,27 @@
           "System.Text.Encoding.CodePages": "4.4.0"
         },
         "compile": {
-          "lib/net7.0/MySql.Data.dll": {
+          "lib/netstandard2.1/MySql.Data.dll": {
             "related": ".xml"
           },
-          "lib/net7.0/ZstdNet.dll": {}
+          "lib/netstandard2.1/ZstdNet.dll": {}
         },
         "runtime": {
-          "lib/net7.0/MySql.Data.dll": {
+          "lib/netstandard2.1/MySql.Data.dll": {
             "related": ".xml"
           },
-          "lib/net7.0/ZstdNet.dll": {}
+          "lib/netstandard2.1/ZstdNet.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.2": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -1063,7 +1067,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    ".NETCoreApp,Version=v3.1": [
       "DataAccessLayer >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0"
@@ -1075,32 +1079,32 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\BuisnessLogicLayer\\BuisnessLogicLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\BuisnessLogicLayer\\BuisnessLogicLayer.csproj",
       "projectName": "BuisnessLogicLayer",
-      "projectPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\BuisnessLogicLayer\\BuisnessLogicLayer.csproj",
+      "projectPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\BuisnessLogicLayer\\BuisnessLogicLayer.csproj",
       "packagesPath": "C:\\Users\\Stoyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\BuisnessLogicLayer\\obj\\",
+      "outputPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\BuisnessLogicLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Stoyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj"
+            "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj"
             }
           }
         }
@@ -1112,8 +1116,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",

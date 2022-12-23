@@ -17,17 +17,19 @@ namespace PresentationLayer
     public partial class CategoryManagerForm : Form
     {
         private ICategoryManager categoryManager;
+        private ICreateCategoryManager createCategoryManager;
         public CategoryManagerForm()
         {
             InitializeComponent();
             categoryManager = new CategoryManager(new DBCategory());
+            createCategoryManager = new CreateCategoryManager(new DBCategory());
             LoadData();
         }
 
         private void btnAddCategory_Click(object sender, EventArgs e)
         {
             string catName = tbCatName.Text;
-            categoryManager.CreateCategory(catName);
+            createCategoryManager.CreateCategory(catName);
             LoadData();
         }
         private void LoadData()

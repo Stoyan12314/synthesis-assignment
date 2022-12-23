@@ -73,15 +73,9 @@ namespace BuisnessLogicLayer
             return dBCategory.GetAllCategories();
         }
        
-        public bool CreateCategory(string cat)
-        {
-            return dBCategory.CreateCategory(cat);
-        }
+     
 
-        public bool CreateSubCategory(string subCategory, int CategoryId)
-        {
-            return dBCategory.CreateSubCategory(subCategory, CategoryId);
-        }
+      
 
 
     }

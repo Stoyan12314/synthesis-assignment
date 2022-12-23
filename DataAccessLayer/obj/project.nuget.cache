@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cBxt5eEp9gvWu+cDB8ofvpeEV9FdxnER/s25vyMq7X4qwPQYiNjEUhk0S2SgsMQ79ic5Dy83HyOgQit9DM2R6g==",
+  "dgSpecHash": "3Z3rFvgc08JvZWcoMoMq2CyLRejSFTVyqRDPHLfYMMkO3xdF901ia89jNbFFWdIb4IeE+aH/inDzLU8P0IDEzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stoyan\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

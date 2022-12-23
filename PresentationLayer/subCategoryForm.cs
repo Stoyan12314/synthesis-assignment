@@ -18,10 +18,12 @@ namespace PresentationLayer
     {
         int id;
         private ICategoryManager categoryManager;
+        private ICreateSubCategoryManager createSubCategoryManager;
         public subCategoryForm(int catId)
         {
             InitializeComponent();
             categoryManager = new CategoryManager(new DBCategory());
+            createSubCategoryManager = new CreateSubCategoryManager(new DBCategory());
             this.id = catId;
             LoadData();
         }
@@ -29,7 +31,7 @@ namespace PresentationLayer
         private void btnSubCat_Click(object sender, EventArgs e)
         {
             string name = tbSubCat.Text;
-            categoryManager.CreateSubCategory(name, id);
+            createSubCategoryManager.CreateSubCategory(name, id);
             LoadData();
         }
         private void LoadData()

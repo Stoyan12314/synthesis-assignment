@@ -20,26 +20,26 @@ namespace UnitTesting
             byte[] bytes = { 0, 0, 0, 25 };
            
             Order order = new Order(1, 1, DateTime.Now, DateTime.Now.AddDays(1), DeliveryOption.PickUp, DeliveryStatus.InProgress,"Marconilan 75", "Eindhoven", "1235NE", "The Netherlands");
-            List<Order> orders = new List<Order>();
-           
+            List<Order> fakerOrders = new List<Order>();
 
-            FakeOrderDB fakeRepo = new FakeOrderDB(orders);
+
+            FakeOrderDB fakeRepo = new FakeOrderDB(fakerOrders);
 
             OrderManager orderManager = new OrderManager(fakeRepo);
 
           
             bool check = orderManager.CreateOrder(order);
 
-
-            Assert.IsFalse(check);
+            Assert.IsTrue(fakerOrders.Contains(order));
+            Assert.IsTrue(check);
 
         }
 
+      
         [TestMethod]
         public void GetOrder_OrderGottenSuccesfully_Void()
         {
            
-          //  (int orderId, int userId, DateTime OrderDate, DateTime DeliveryDate, DeliveryOption DeliveryOption, DeliveryStatus DeliveryStatus, string shipAddress, string shipCity, string shipPostCode, string shipCountry)
             Order order = new Order(1, 1, DateTime.Now, DateTime.Now.AddDays(1), DeliveryOption.PickUp, DeliveryStatus.InProgress, "Marconilan 75", "Eindhoven", "1235NE", "The Netherlands");
             List<Order> orders = new List<Order>();
             orders.Add(order);
@@ -51,7 +51,7 @@ namespace UnitTesting
 
             Order gottenOrder = orderManager.GetOrder(order.OrderId);
 
-
+            Assert.IsTrue(orders.Contains(order));
             Assert.AreEqual(order.OrderId, gottenOrder.OrderId);
 
         }
@@ -71,7 +71,7 @@ namespace UnitTesting
 
             List<Order> gottenOrder = orderManager.GetOrders(1);
 
-
+            Assert.IsTrue(orders.Contains(order));
             Assert.AreEqual(order.OrderId, gottenOrder[0].OrderId);
 
         }
@@ -90,9 +90,9 @@ namespace UnitTesting
 
 
             orderManager.UpgradeOrder(DeliveryStatus.Delivered,order.OrderId);
-            Order gottenOrder = orderManager.GetOrder(order.OrderId); 
+            Order gottenOrder = orderManager.GetOrder(order.OrderId);
 
-
+            Assert.IsTrue(orders.Contains(order));
             Assert.AreEqual(gottenOrder.DeliveryStatus, gottenOrder.DeliveryStatus);
 
         }

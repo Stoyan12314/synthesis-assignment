@@ -39,7 +39,21 @@
                         <input asp-for="Register.lastName" type="last name" placeholder="Enter last name">
                         <span class="text-danger" asp-validation-for="Register.lastName"></span>
 
-                       
+                        <h4>Address</h4>
+                        <input asp-for="Register.shipAddress" type="address" placeholder="Enter address">
+                        <span class="text-danger" asp-validation-for="Register.shipAddress"></span>
+
+                        <h4>City</h4>
+                        <input asp-for="Register.shipCity" type="last name" placeholder="Enter city">
+                        <span class="text-danger" asp-validation-for="Register.shipCity"></span>
+
+                        <h4>Postal code</h4>
+                        <input asp-for="Register.shipPostalCode" type="last name" placeholder="Enter postal code">
+                        <span class="text-danger" asp-validation-for="Register.shipPostalCode"></span>
+
+                        <h4>Country</h4>
+                        <input asp-for="Register.shipCountry" type="last name" placeholder="Enter country">
+                        <span class="text-danger" asp-validation-for="Register.shipCountry"></span>
 
                     </div>
                     <input id="Continue" type="submit" value="Continue">

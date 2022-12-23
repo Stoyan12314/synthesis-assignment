@@ -1,6 +1,9 @@
 ﻿@import url('register.css');
 
-
+body {
+	font-family: Garamond, serif;
+	color: white;
+}
 
 .navbar {
 	position: sticky;
@@ -61,7 +64,7 @@ body .description {
 
 body .SignUp {
 	margin:auto;
-	margin-top:3rem;
+	margin-top:1rem;
 	
 }
 

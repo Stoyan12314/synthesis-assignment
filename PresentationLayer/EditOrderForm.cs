@@ -14,5 +14,10 @@ namespace PresentationLayer
         {
             InitializeComponent();
         }
+
+        private void EditOrderForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

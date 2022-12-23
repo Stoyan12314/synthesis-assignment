@@ -154,11 +154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Stoyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Stoyan\\AppData\\Roaming\\NuGet\\NuGet.Config",

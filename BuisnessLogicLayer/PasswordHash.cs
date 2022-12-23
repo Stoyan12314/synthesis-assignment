@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Security.Cryptography;
-using System.Text;
+
 
 
 namespace BuisnessLogicLayer
@@ -14,20 +13,18 @@ namespace BuisnessLogicLayer
         {
 
             byte[] salt;
+            new RNGCryptoServiceProvider().GetBytes(salt = new byte[16]); // fills it with 16 random bytes
 
-            new RNGCryptoServiceProvider().GetBytes(salt = new byte[16]);
+            var pbkdf2 =
+                new Rfc2898DeriveBytes(password, salt,
+                    10000); //password based key derivation function   random from seed from password and seed 
+            var hash = pbkdf2.GetBytes(20); //ask for 20 bytes from the random generator 
 
-            var pbkdf2 = new Rfc2898DeriveBytes(password, salt, 10000);
+            var hashBytes = new byte[36]; //create a new array of 36 bytes
+            Array.Copy(salt, 0, hashBytes, 0, 16); //substring the salt to the first 16 bytes of the array
+            Array.Copy(hash, 0, hashBytes, 16, 20); // substring the hash to the last 20 bytes of the array
 
-            var hash = pbkdf2.GetBytes(20);
-
-            var hashBytes = new byte[36];
-
-            Array.Copy(salt, 0, hashBytes, 0, 16);
-
-            Array.Copy(hash, 0, hashBytes, 16, 20);
-
-            var savedPasswordHash = Convert.ToBase64String(hashBytes);
+            var savedPasswordHash = Convert.ToBase64String(hashBytes); //convert the array to a string
 
             return savedPasswordHash;
 
@@ -35,28 +32,20 @@ namespace BuisnessLogicLayer
 
         public static bool Validate(string password, string savedPasswordHash)
         {
-            if (savedPasswordHash == null)
-            {
-                return false;
-            }
 
-            var hashBytes = Convert.FromBase64String(savedPasswordHash);
+            var hashBytes = Convert.FromBase64String(savedPasswordHash); //convert the string to a byte array
 
-            var salt = new byte[16];
+            var salt = new byte[16]; //create a new array of 16 bytes
+            Array.Copy(hashBytes, 0, salt, 0, 16); //substring the salt to the first 16 bytes of the array
 
-            Array.Copy(hashBytes, 0, salt, 0, 16);
-
-            var pbkdf2 = new Rfc2898DeriveBytes(password, salt, 10000);
-
-            var hash = pbkdf2.GetBytes(20);
+            var pbkdf2 =
+                new Rfc2898DeriveBytes(password, salt,
+                    10000); //password based key derivation function   random from seed from password and seed
+            var hash = pbkdf2.GetBytes(20); //ask for 20 bytes from the random generator
 
             for (var i = 0; i < 20; i++)
-            {
-                if (hashBytes[i + 16] != hash[i])
-                {
+                if (hashBytes[i + 16] != hash[i]) //compare the two arrays
                     return false;
-                }
-            }
 
             return true;
 

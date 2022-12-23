@@ -1,0 +1,16 @@
+﻿@import url('returnItem.css');
+body {
+    font-family: Garamond, serif;
+    color: white;
+}
+
+body .item {
+   
+    margin-top:3rem;
+}
+body .item #reason {
+   
+
+    width: 35rem;
+    height:9rem;
+}
