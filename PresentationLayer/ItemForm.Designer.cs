@@ -36,13 +36,13 @@
             this.tbPrice = new System.Windows.Forms.TextBox();
             this.lbCategory = new System.Windows.Forms.Label();
             this.lbSubCategory = new System.Windows.Forms.Label();
-            this.tbSubCategory = new System.Windows.Forms.TextBox();
             this.lbItemName = new System.Windows.Forms.Label();
             this.tbItemName = new System.Windows.Forms.TextBox();
             this.lbUnit = new System.Windows.Forms.Label();
             this.tbAmount = new System.Windows.Forms.TextBox();
             this.lbItem = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbSubCat = new System.Windows.Forms.ComboBox();
             this.cbCat = new System.Windows.Forms.ComboBox();
             this.lbAmount = new System.Windows.Forms.Label();
             this.cbUnit = new System.Windows.Forms.ComboBox();
@@ -110,7 +110,7 @@
             // lbCategory
             // 
             this.lbCategory.AutoSize = true;
-            this.lbCategory.Location = new System.Drawing.Point(126, 127);
+            this.lbCategory.Location = new System.Drawing.Point(119, 87);
             this.lbCategory.Name = "lbCategory";
             this.lbCategory.Size = new System.Drawing.Size(69, 20);
             this.lbCategory.TabIndex = 20;
@@ -119,18 +119,11 @@
             // lbSubCategory
             // 
             this.lbSubCategory.AutoSize = true;
-            this.lbSubCategory.Location = new System.Drawing.Point(126, 87);
+            this.lbSubCategory.Location = new System.Drawing.Point(119, 130);
             this.lbSubCategory.Name = "lbSubCategory";
             this.lbSubCategory.Size = new System.Drawing.Size(98, 20);
             this.lbSubCategory.TabIndex = 18;
             this.lbSubCategory.Text = "Sub-category";
-            // 
-            // tbSubCategory
-            // 
-            this.tbSubCategory.Location = new System.Drawing.Point(390, 84);
-            this.tbSubCategory.Name = "tbSubCategory";
-            this.tbSubCategory.Size = new System.Drawing.Size(125, 27);
-            this.tbSubCategory.TabIndex = 17;
             // 
             // lbItemName
             // 
@@ -175,6 +168,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.cbSubCat);
             this.groupBox2.Controls.Add(this.cbCat);
             this.groupBox2.Controls.Add(this.lbAmount);
             this.groupBox2.Controls.Add(this.cbUnit);
@@ -185,7 +179,6 @@
             this.groupBox2.Controls.Add(this.lbUnit);
             this.groupBox2.Controls.Add(this.lbItemName);
             this.groupBox2.Controls.Add(this.lbPrice);
-            this.groupBox2.Controls.Add(this.tbSubCategory);
             this.groupBox2.Controls.Add(this.tbPrice);
             this.groupBox2.Controls.Add(this.lbSubCategory);
             this.groupBox2.Controls.Add(this.lbCategory);
@@ -196,16 +189,19 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Item description";
             // 
+            // cbSubCat
+            // 
+            this.cbSubCat.FormattingEnabled = true;
+            this.cbSubCat.Location = new System.Drawing.Point(390, 127);
+            this.cbSubCat.Name = "cbSubCat";
+            this.cbSubCat.Size = new System.Drawing.Size(125, 28);
+            this.cbSubCat.TabIndex = 29;
+            this.cbSubCat.SelectedIndexChanged += new System.EventHandler(this.cbSubCat_SelectedIndexChanged);
+            // 
             // cbCat
             // 
             this.cbCat.FormattingEnabled = true;
-            this.cbCat.Items.AddRange(new object[] {
-            "Fruit and Vegetables",
-            "Meat",
-            "Drinks",
-            "Bread",
-            "Household goods "});
-            this.cbCat.Location = new System.Drawing.Point(390, 124);
+            this.cbCat.Location = new System.Drawing.Point(390, 84);
             this.cbCat.Name = "cbCat";
             this.cbCat.Size = new System.Drawing.Size(125, 28);
             this.cbCat.TabIndex = 28;
@@ -284,7 +280,6 @@
         private System.Windows.Forms.Label lbCategory;
         private System.Windows.Forms.TextBox cbCategory;
         private System.Windows.Forms.Label lbSubCategory;
-        private System.Windows.Forms.TextBox tbSubCategory;
         private System.Windows.Forms.Label lbItemName;
         private System.Windows.Forms.TextBox tbItemName;
         private System.Windows.Forms.Label lbUnit;
@@ -296,5 +291,6 @@
         private System.Windows.Forms.ComboBox cbUnit;
         private System.Windows.Forms.ComboBox cbCat;
         private System.Windows.Forms.Button btnRemoveItem;
+        private System.Windows.Forms.ComboBox cbSubCat;
     }
 }

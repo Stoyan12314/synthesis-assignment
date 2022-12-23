@@ -60,3 +60,65 @@ D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreap
 D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\index.cshtml.g.cs
 D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\register.cshtml.g.cs
 D:\Visual Studio\Synthesis Assignments\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\LogOut.cshtml.g.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.exe
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.deps.json
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.runtimeconfig.json
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.runtimeconfig.dev.json
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.Views.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Synthesis Assignments.Views.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\BuisnessLogicLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\BuisnessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.RazorAssemblyInfo.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.RazorAssemblyInfo.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\Synthesis Assignments.StaticWebAssets.Manifest.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\Synthesis Assignments.StaticWebAssets.Pack.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Synthesis Assignments.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Synthesis Assignments.props
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Synthesis Assignments.props
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Synthesis Assignments.props
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.TagHelpers.input.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.TagHelpers.output.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.RazorCoreGenerate.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\index.cshtml.g.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\LogOut.cshtml.g.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\register.cshtml.g.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.RazorTargetAssemblyInfo.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.RazorTargetAssemblyInfo.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.Views.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.csproj.CopyComplete
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\Synthesis Assignments\obj\Debug\netcoreapp3.1\Synthesis Assignments.genruntimeconfig.cache

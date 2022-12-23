@@ -1,0 +1,18 @@
+﻿@page
+@model Synthesis_Assignments.Pages.groupItemsModel
+@{
+}
+<link rel="stylesheet" href="/css/groupItems.css">
+<div class="flex-container">
+
+    <div class="grid-container" style="margin-top:1rem;">
+        @foreach (var item in @Model.items)
+        {
+
+            <div class="grid-item">
+                <a asp-page="/Item" asp-route-id="@item.id"> <img src="data:image/jpeg;base64,@Convert.ToBase64String(@item.image)" alt="item photo"></a>
+            </div>
+
+        }
+    </div>
+</div>

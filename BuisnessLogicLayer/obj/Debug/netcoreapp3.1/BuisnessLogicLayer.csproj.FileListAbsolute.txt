@@ -13,3 +13,33 @@ D:\Visual Studio\Synthesis Assignments\BuisnessLogicLayer\obj\Debug\netcoreapp3.
 D:\Visual Studio\Synthesis Assignments\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.csproj.CopyComplete
 D:\Visual Studio\Synthesis Assignments\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.dll
 D:\Visual Studio\Synthesis Assignments\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\BuisnessLogicLayer.deps.json
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\BuisnessLogicLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\BuisnessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.csproj.CopyComplete
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.dll
+C:\Users\Stoyan\Desktop\Synthesis assignment\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\BuisnessLogicLayer.deps.json
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\BuisnessLogicLayer.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\BuisnessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.csproj.CopyComplete
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.dll
+C:\Users\Stoyan\Desktop\synthesis-assignment-master\BuisnessLogicLayer\obj\Debug\netcoreapp3.1\BuisnessLogicLayer.pdb

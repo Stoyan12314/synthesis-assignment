@@ -1,0 +1,80 @@
+﻿@import url('checkOutPage.css');
+
+/*body .elements {
+    display: block
+}
+
+    body .elements .item {
+    justify-content:center;
+      align-content:center;
+        align-items:center;
+    }
+
+    body .elements label {
+        display: inline-block;
+        text-align: left;
+        width: 5rem;
+    }
+*/
+body {
+    font-family: Garamond, serif;
+    color:white;
+}
+
+body .elements {
+    display: block;
+         text-align: center;
+        justify-content: center;
+        align-content: center;
+}
+
+    body .elements .item {
+        text-align: center;
+        margin-bottom:1rem;
+    }
+
+    body .elements label {
+        display: inline-block;
+        text-align: left;
+        width: 5rem;
+    }
+
+    body .elements .item-selection {
+        margin:auto;
+        gap:0.5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+       
+        flex-direction: column;
+        width: 8rem;
+       
+    }
+
+body .item input {
+    border: 2px solid blue;
+    border-radius: 4px;
+    background-color:lightblue;
+}
+
+
+
+    body .item input:focus {
+        background-color: deepskyblue;
+    }
+
+#Continue {
+    border:2px solid blue;
+    background-color:lightblue
+}
+
+    #Continue:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color: blue; 
+        color: white;
+    }
+
+
+.button:hover {
+  
+}

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OrQ43e6TBYOep7RcIrvs1GcQR+OBvQiPheFVW4DckBWOkVH5CcuRQnBixTXeSFyzxjA2+4zS9ixZWIt7OFU9Dg==",
+  "dgSpecHash": "EoVXx5R9H8+PQScGlKYSYEhwbt+JMs0Sc/C7VT0dTwTR5DMBy0VrrVVpTp7nZD/YVnIINfdbb73RQhNjeVAFUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\Synthesis assignment\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\synthesis-assignment-master\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Stoyan\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }

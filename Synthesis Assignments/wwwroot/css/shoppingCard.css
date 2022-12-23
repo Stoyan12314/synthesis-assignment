@@ -1,0 +1,41 @@
+﻿@import url('shoppingCard.css');
+body #Update {
+    border-radius: 90px;
+    background-color:lightblue;
+}
+body {
+    color: white;
+    font-family: Garamond, serif;
+    color: white;
+}
+
+body #Quantity {
+    
+    width: 50px;
+    border-radius:90px;
+}
+
+    body #item-image {
+        
+        width:120px;
+        height:100px;
+    }
+
+    body a {
+       
+        text-decoration: none;
+        color:white;
+        
+    }
+
+    body .buttonsStyle {
+        display: flex;
+        flex-direction: row;
+
+        background-color:deepskyblue;
+        border-radius:8px;
+
+        margin-bottom:0.2rem;
+        width:8rem;
+       
+    }

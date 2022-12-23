@@ -12,7 +12,7 @@ namespace Synthesis_Assignments.Pages
     public class registerModel : PageModel
     {
         [BindProperty] public Register Register { get; set; }
-        private IUserManager userManager = new UserManager(new DBUser());
+        private IRegisterManager registerManager = new RegisterManager(new DBUser());
         public void OnGet()
         {
         }
@@ -23,9 +23,8 @@ namespace Synthesis_Assignments.Pages
             {
                 try
                 {
-                    if (Register.password == Register.RepPassword)
-                    {
-                        bool registrationSucessful = userManager.Register(Register.username, Register.username, DateTime.Now, Register.firstName, Register.lastName, Register.email);
+                        
+                        bool registrationSucessful = registerManager.Register(Register.username, Register.password, DateTime.Now, Register.firstName, Register.lastName, Register.email, Register.shipAddress, Register.shipCity, Register.shipPostalCode, Register.shipCountry);
                         if (registrationSucessful)
                         {
                             return new RedirectToPageResult("/index");
@@ -34,13 +33,6 @@ namespace Synthesis_Assignments.Pages
                         {
                             return Page();
                         }
-
-                    }
-                    else
-                    {
-                        
-                    }
-                    return Page();
                 }
                 catch (Exception ex)
                 {

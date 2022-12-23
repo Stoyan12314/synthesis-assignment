@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.btnAddItem = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.dataGridViewItems = new System.Windows.Forms.DataGridView();
             this.item_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,23 +43,13 @@
             // 
             // btnAddItem
             // 
-            this.btnAddItem.Location = new System.Drawing.Point(46, 156);
+            this.btnAddItem.Location = new System.Drawing.Point(37, 289);
             this.btnAddItem.Name = "btnAddItem";
             this.btnAddItem.Size = new System.Drawing.Size(210, 86);
             this.btnAddItem.TabIndex = 0;
             this.btnAddItem.Text = "Add Item";
             this.btnAddItem.UseVisualStyleBackColor = true;
             this.btnAddItem.Click += new System.EventHandler(this.btnAddItem_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(46, 412);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(210, 86);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Edit Item";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // dataGridViewItems
             // 
@@ -146,9 +135,7 @@
             this.ClientSize = new System.Drawing.Size(1231, 701);
             this.Controls.Add(this.lbItems);
             this.Controls.Add(this.dataGridViewItems);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.btnAddItem);
-           
             this.Text = "Item";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewItems)).EndInit();
             this.ResumeLayout(false);
@@ -159,7 +146,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnAddItem;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridView dataGridViewItems;
         private System.Windows.Forms.Label lbItems;
         private System.Windows.Forms.DataGridViewTextBoxColumn item_id;

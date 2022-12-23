@@ -1,0 +1,52 @@
+﻿@page
+@model Synthesis_Assignments.Pages.OrderDetailModel
+@{
+}
+<link rel="stylesheet" href="/css/OrderDetail.css">
+<body>
+
+  
+    <table border="1">
+        <tr>
+            <th>image</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Unit</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>SubCategory</th>
+            <th>Return</th>
+
+
+        </tr>
+		@foreach (var orderedItem in @Model.items)
+		{
+
+
+            <tr align="center">
+
+                    <td><img id="item-image"src="data:image/jpeg;base64,@Convert.ToBase64String(@orderedItem.item.image)" alt="item photo"></td>
+                    <td>@orderedItem.item.name</td>
+                    <td>@orderedItem.quantity</td>
+                    <td>@orderedItem.item.price</td>
+                    <td>@orderedItem.item.unit.ToString()</td>
+                    <td>@orderedItem.item.amount</td>
+                    <td>@orderedItem.item.category.category</td>
+                    <td>@orderedItem.item.subCategory.Name</td>
+                    <td><a asp-page="/ReturnItem" asp-route-itemId="@orderedItem.item.id" asp-route-quantity="@orderedItem.quantity" asp-route-orderId="@Model.orderId">Return Item</a></td>
+
+            </tr>
+
+
+		}
+    </table>
+
+
+
+	
+	
+
+
+</body>
+

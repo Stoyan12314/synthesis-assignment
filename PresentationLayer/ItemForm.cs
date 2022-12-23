@@ -15,21 +15,31 @@ namespace PresentationLayer
 {
     public partial class ItemForm : Form
     {
-        private IItemManager itemManager = new ItemManager(new DBItem());
+        private IItemManager itemManager;
+        private ICreateItemManager createItemManager;
+        private IDeleteItemManager deleteItemManager;
+        private ICategoryManager categoryManager;
         int id;
         EditItems form;
         public ItemForm(EditItems form) 
         {
             InitializeComponent();
+            categoryManager = new CategoryManager(new DBCategory());
+            createItemManager = new CreateItemManager(new DBItem());
+            itemManager = new ItemManager(new DBItem());
             btnRemoveItem.Hide();
             this.form = form;
+            loadCategories();
         }
         public ItemForm(int id, EditItems form)
         {
             InitializeComponent();
             this.id = id;
             this.form = form;
+            deleteItemManager = new DeleteItemManager(new DBItem());
+            categoryManager = new CategoryManager(new DBCategory());
             LoadData();
+            loadCategories();
         }
        
        
@@ -46,16 +56,15 @@ namespace PresentationLayer
                 {
                     Byte[] image = (byte[])new ImageConverter().ConvertTo(pcBox.Image, typeof(Byte[]));
                     string itemName = tbItemName.Text;
-                    string subCategory = tbSubCategory.Text;
-                    string Category = cbCat.Text;
+                    SubCategory subCategory = (SubCategory)cbSubCat.SelectedItem; 
+                    Category Category = (Category)cbCat.SelectedItem;
                     double price = Convert.ToDouble(tbPrice.Text);
                     int amount = Convert.ToInt32(tbAmount.Text);
                     string unit = cbUnit.Text;
                     string description = tbDescription.Text;
                     UnitType unitType = Enum.Parse<UnitType>(unit);
-                    itemManager.CreateItem(new Item(itemName, subCategory, Category, price, unitType, amount, image, description));
+                    createItemManager.CreateItem(new Item(itemName, subCategory, Category, price, unitType, amount, image, description));
                     MessageBox.Show("Item created");
-                   // EditItems form = new EditItems();
                     form.LoadData();
                     this.Close();
                 }
@@ -63,8 +72,19 @@ namespace PresentationLayer
                 {
                     Byte[] image = (byte[])new ImageConverter().ConvertTo(pcBox.Image, typeof(Byte[]));
                     string itemName = tbItemName.Text;
-                    string subCategory = tbSubCategory.Text;
-                    string Category = cbCat.Text;
+                
+                      SubCategory subCategory = (SubCategory)cbSubCat.SelectedItem;
+
+               
+
+                    Category Category = (Category)cbCat.SelectedItem;
+                    if (subCategory == null || Category == null)
+                    {
+                        Item item = itemManager.GetItemWith(id);
+                        subCategory = item.subCategory;
+                        Category = item.category;
+                    }
+     
                     double price = Convert.ToDouble(tbPrice.Text);           
                     int amount = Convert.ToInt32(tbAmount.Text);
                     string unit = cbUnit.Text;
@@ -73,7 +93,7 @@ namespace PresentationLayer
                     itemManager.EditItem(this.id, new Item(itemName, subCategory, Category, price, unitType, amount, image, description));
                     MessageBox.Show("Item updated");
                    
-                    //EditItems form = new EditItems();
+                   
                     form.LoadData();
                     this.Close();
                 }
@@ -88,18 +108,33 @@ namespace PresentationLayer
         }
         public void LoadData()
         {
-           
-            Item item = itemManager.GetItemWith(id);
+            itemManager = new ItemManager(new DBItem());
+            Item item = itemManager.GetItemWith(id); 
             MemoryStream stream = new MemoryStream(item.image);
             pcBox.Image = Image.FromStream(stream);
             tbItemName.Text = item.name;
-            tbSubCategory.Text = item.subCategory;
-            cbCat.Text = item.category;
+           
+
+            cbSubCat.Text = item.subCategory.Name;
+          
+            cbCat.Text = item.category.category;
+
             tbPrice.Text = item.price.ToString();
             tbAmount.Text = item.amount.ToString();
             cbUnit.Text = item.unit.ToString();
             tbDescription.Text = item.description;
-           
+        }
+        public void loadCategories()
+        {
+            foreach (Category item in categoryManager.GetAllCategoriesFilter())
+            {
+                cbCat.Items.Add(item);
+                foreach (SubCategory subCat in item.subCategories)
+                {
+                    cbSubCat.Items.Add(subCat);
+                }
+                
+            }
         }
         private void btnSelectImage_Click(object sender, EventArgs e)
         {
@@ -112,10 +147,15 @@ namespace PresentationLayer
 
         private void btnRemoveItem_Click(object sender, EventArgs e)
         {
-            itemManager.DeleteItem(id);
+            deleteItemManager.DeleteItem(id);
             form.LoadData();
             this.Close();
             
+        }
+
+        private void cbSubCat_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,0 +1,14 @@
+﻿@import url('OrderDetail.css');
+body #item-image {
+    width: 100px;
+    height: 100px;
+}
+body {
+    color: white;
+    font-family: Garamond, serif;
+    color: white;
+}
+body a {
+    text-decoration: none;
+    color: white;
+}

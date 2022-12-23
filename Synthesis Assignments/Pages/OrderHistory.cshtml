@@ -1,0 +1,54 @@
+﻿@page
+@model Synthesis_Assignments.Pages.OrderHistoryModel
+@{
+}
+<link rel="stylesheet" href="/css/OrderHistory.css">
+<h3>Order History</h3>
+<form method="post" asp-page="ShoppingCard" asp-page-handler="update">
+    @if (Model.orders.Count != 0)
+    {
+        <table border="1">
+            <tr>
+                <th>order date</th>
+                <th>delivery option</th>
+                <th>delivery date</th>
+                <th>order status</th>
+                <th>ship address</th>
+                <th>ship city</th>
+                <th>ship postal code</th>
+                <th>ship country </th>
+                <th>Details</th>
+
+
+            </tr>
+            @foreach (var order in @Model.orders)
+            {
+                <tr align="center">
+
+
+                    <td>@order.OrderDate.ToString("dd/MM/yyy")</td>
+                    <td>@order.DeliveryOption</td>
+                    <td>@order.DeliveryDate.ToString("dd/MM/yyy")</td>
+                    <td>@order.DeliveryStatus</td>
+                    <td>@order.shipAddress</td>
+                    <td>@order.shipCity</td>
+                    <td>@order.shipPostCode</td>
+                    <td>@order.shipCountry</td>
+                    <td> <a asp-page="/OrderDetail" asp-route-orderId="@order.OrderId">info</a></td>
+
+                </tr>
+            }
+        </table>
+        <div>
+            <ul class="pagination">
+                @for (var i = 1; i <= Model.TotalPages; i++)
+                {
+                    <li>
+                        <a asp-page="/OrderHistory" asp-route-currentpage="@i" class="page-link">@i</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+   
+</form>

@@ -1,0 +1,29 @@
+﻿@import url('account.css.css');
+body {
+    font-family: Garamond, serif;
+    color: white;
+}
+
+body .elements {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+    body .elements .item {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    body .elements label {
+        display: inline-block;
+        text-align: left;
+        width: 5rem;
+    }
+
+    body .elements .item-selection #Save{
+        background-color:aqua;
+     border-color:black;
+     border-radius:30px;
+    }

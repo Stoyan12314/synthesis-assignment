@@ -1,0 +1,47 @@
+﻿@page
+@model Synthesis_Assignments.Pages.HomeModel
+@{
+	ViewData["Title"] = "Home";
+}
+<link rel="stylesheet" href="/css/home.css">
+<div class="flex-container">
+    
+       
+        <div class="flex-items">
+        @foreach (var item in @Model.categoryManager.GetAllCategoriesFilter())
+            {
+                <div class="flex-item">
+                    <h3><a asp-page="/groupItems" asp-route-category="@item.category"> @item.category</a> </h3>
+                    
+                    <p>
+                        @foreach (var subCat in item.subCategories)
+                        {
+                          <ul>  
+                              <a asp-page="/groupSubItems" asp-route-SubCategory="@subCat">@subCat</a>
+                          </ul>
+                        }
+                    </p>
+                </div>
+            }
+        </div>
+
+        <div class="grid-container">
+            @foreach (var item in @Model.itemManager.GetAllItems())
+            {
+                <div class="grid-item">
+                    <a asp-page="/Item" asp-route-id="@item.id"> <img src="data:image/jpeg;base64,@Convert.ToBase64String(@item.image)" alt="item photo"></a>
+                </div>
+            }
+        </div>
+
+      
+   
+      
+</div>
+
+  
+
+
+
+
+
