@@ -1,92 +1,149 @@
-# Synthesis Assignment
+# Synthesis Project
 
+A software solution for RobertHeijn B.V. that enables online shopping for customers and provides a desktop interface for staff to manage products, orders, and promotions.
 
+---
 
-## Getting started
+## Table of Contents
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- [Overview](#overview)
+- [Features](#features)
+  - [Staff (Desktop Application)](#staff-desktop-application)
+  - [Customers (Website)](#customers-website)
+  - [Visitors](#visitors)
+- [Architecture and UML](#architecture-and-uml)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Plan](#project-plan)
+- [User Requirements (URS)](#user-requirements-urs)
+- [Testing](#testing)
+- [Contact](#contact)
+- [License](#license)
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+---
 
-## Add your files
+## Overview
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+The **Synthesis Project** is designed to provide RobertHeijn B.V. with a comprehensive solution for online grocery shopping. The solution consists of:
 
-```
-cd existing_repo
-git remote add origin https://git.fhict.nl/I476548/synthesis-assignment.git
-git branch -M main
-git push -uf origin main
-```
+- A **desktop application** for staff, enabling them to log in, manage grocery items (create, read, update, delete), update order statuses, and handle product categorization.
+- A **web application** for customers, where they can register, log in, browse products, place orders, check order history, update shipping details, and even return items under specific conditions.
+- A read-only view for visitors to browse the product catalog without placing orders.
 
-## Integrate with your tools
+---
 
-- [ ] [Set up project integrations](https://git.fhict.nl/I476548/synthesis-assignment/-/settings/integrations)
+## Features
 
-## Collaborate with your team
+### Staff (Desktop Application)
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- **Authentication:** Secure login/logout for staff members.
+- **Product Management:** 
+  - Add new grocery items by specifying name, sub-category, category, price, and unit.
+  - Edit existing grocery items.
+  - Remove grocery items.
+- **Order Management:** Update order statuses.
+- **Category Management:** 
+  - Create new categories.
+  - Add sub-categories to existing categories.
+- **Bonus Card Management:** Manage bonus points (add points, view current points, and deduct points).
 
-## Test and Deploy
+### Customers (Website)
 
-Use the built-in continuous integration in GitLab.
+- **User Account:** 
+  - Customer registration and login.
+  - Ability to update account information, including shipping address.
+- **Shopping:** 
+  - Browse the product catalog.
+  - Add items to a shopping cart.
+  - Place orders by entering delivery details.
+- **Order Tracking:** View current order status and complete order history.
+- **Returns:** Initiate a return process for an item (with validation on time constraints).
+- **Bonus Points:** Use accumulated bonus points during checkout.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+### Visitors
 
-***
+- **Catalog Browsing:** 
+  - View the product catalog without requiring registration or login.
+  - Access detailed product information without the ability to make purchases.
 
-# Editing this README
+---
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+## Architecture and UML
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+The project is structured in multiple layers:
 
-## Name
-Choose a self-explaining name for your project.
+- **Presentation Layer:**
+  - **Desktop Application:** Developed using Windows Forms for staff operations.
+  - **Web Application:** Built using ASP.NET Core to handle customer interactions.
+  
+- **Business Logic Layer:**
+  - Contains managers and controllers (e.g., `OrderManager`, `ItemManager`, `UserManager`, `CategoryManager`, `BonusCardManager`, etc.) that implement the core functionality and business rules.
+  
+- **Data Access Layer:**
+  - Responsible for database interactions using MySQL.
+  - Classes such as `DBUser`, `DBOrder`, `DBItem`, and `DBCategory` provide CRUD operations and other data manipulation functionalities.
+  
+- **UML Design:**
+  - The UML diagram details the classes, interfaces, enumerations, and their relationships (associations, generalizations, and realizations). It provides a clear overview of the system’s structure.
+  - For a detailed view of the UML design, please refer to the project documentation or the UML diagram file included in the repository.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+---
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+## Technologies
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+- **Programming Languages:** C#, HTML, CSS
+- **Frameworks:** 
+  - ASP.NET Core (Web Application)
+  - Windows Forms (Desktop Application)
+- **Database:** MySQL
+- **Development Tools:** Visual Studio, SmartGit, GitLab
+
+---
 
 ## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+### Prerequisites
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+- [.NET Framework / .NET Core SDK](https://dotnet.microsoft.com/download)
+- [MySQL Server](https://dev.mysql.com/downloads/)
+- [Visual Studio](https://visualstudio.microsoft.com/) or your preferred C# IDE
+- [Git](https://git-scm.com/)
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+### Steps
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+1. **Clone the Repository:**
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+   ```bash
+   git clone https://gitlab.com/your-repository-url.git
+   ```
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+2. **Open the Solution:**
+   - Open the solution file in Visual Studio.
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+3. **Restore NuGet Packages:**
+   - Ensure all required NuGet packages are restored.
+
+4. **Configure the Database:**
+   - Update the connection string in the configuration file (e.g., `appsettings.json` or `Web.config`) to point to your MySQL database.
+
+5. **Build the Project:**
+   - Build the solution to compile the desktop and web applications.
+
+6. **Run the Applications:**
+   - Launch the desktop application for staff operations.
+   - Run the web application (via IIS Express or your preferred method) for customer interactions.
+
+---
+
+## Contact
+
+**Stoyan Grozdev**  
+Email: [s.grozdev@student.fontys.nl](mailto:s.grozdev@student.fontys.nl)
+
+---
 
 ## License
-For open source projects, say how it is licensed.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+This project is licensed under the MIT License.
+
