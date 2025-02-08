@@ -11,7 +11,11 @@ A software solution for RobertHeijn B.V. that enables online shopping for custom
   - [Staff (Desktop Application)](#staff-desktop-application)
   - [Customers (Website)](#customers-website)
   - [Visitors](#visitors)
-
+- [Architecture and UML](#Architecture-and-UML)
+- [Technologies](#Technologies)
+- [Installation](#Installation)
+- [Contact](#contact)
+- [License](#license)
 
 ---
 
@@ -107,7 +111,7 @@ The project is structured in multiple layers:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://gitlab.com/your-repository-url.git
+   git clone https://gitlab.com/repository-url.git
    ```
 
 2. **Open the Solution:**
