@@ -11,15 +11,7 @@ A software solution for RobertHeijn B.V. that enables online shopping for custom
   - [Staff (Desktop Application)](#staff-desktop-application)
   - [Customers (Website)](#customers-website)
   - [Visitors](#visitors)
-- [Architecture and UML](#architecture-and-uml)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Plan](#project-plan)
-- [User Requirements (URS)](#user-requirements-urs)
-- [Testing](#testing)
-- [Contact](#contact)
-- [License](#license)
+
 
 ---
 
